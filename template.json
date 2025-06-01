@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease summarize the reasearch paper titled \"{paper_input}\" with the following specifications:\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n1. Mathematical details:\n    - Include relevant mathematical equations and notations if present in the paper.\n    - Explain the mathematical concepts in a way that is easy to understand and using intuitive code snippets where applicable.\n\n2. Analogies:\n    - Use reletable analogies to simplify complex concepts.\nIf certain information in not available in the paper, response with \"Insufficient information \navailable\" instead of quession.\nEnsure the summary is clear, accurate, and alligned with the provided style and length.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
